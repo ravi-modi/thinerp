@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include thinerp *.css
+recursive-include thinerp *.csv
+recursive-include thinerp *.html
+recursive-include thinerp *.ico
+recursive-include thinerp *.js
+recursive-include thinerp *.json
+recursive-include thinerp *.md
+recursive-include thinerp *.png
+recursive-include thinerp *.py
+recursive-include thinerp *.svg
+recursive-include thinerp *.txt
+recursive-exclude thinerp *.pyc
